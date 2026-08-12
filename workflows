@@ -1,1 +1,1 @@
-
+{{ $json.content.replace(/\n/g, '').base64Decode() }}
